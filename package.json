@@ -17,6 +17,9 @@
         "url": "https://github.com/msaf9/npm/issues"
     },
     "homepage": "https://github.com/msaf9/npm#readme",
-    "dependencies": {},
+    "dependencies": {
+        "liveserver": "^0.1.20",
+        "lodash": "^4.17.21"
+    },
     "devDependencies": {}
 }

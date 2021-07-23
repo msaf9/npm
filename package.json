@@ -16,5 +16,11 @@
     "bugs": {
         "url": "https://github.com/msaf9/npm/issues"
     },
-    "homepage": "https://github.com/msaf9/npm#readme"
+    "homepage": "https://github.com/msaf9/npm#readme",
+    "dependencies": {
+        "moment": "^2.29.1"
+    },
+    "devDependencies": {
+        "lodash": "^4.17.21"
+    }
 }

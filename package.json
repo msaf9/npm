@@ -19,6 +19,7 @@
     "homepage": "https://github.com/msaf9/npm#readme",
     "dependencies": {
         "bootstrap": "*",
+        "gulp": "^4.0.2",
         "lite-server": "^2.6.1",
         "underscore": "^1.13.1"
     },

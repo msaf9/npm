@@ -1,5 +1,5 @@
-# npm Commands for reference
-npm commands.
+# npm commands
+npm commands  for reference.
 
 ## Table of contents
 1. Introduction
@@ -9,18 +9,24 @@ npm commands.
 5. License
 
 ## Introduction
-This repository is for experimenting with npm commands.
+A repository with all npm commands.
 
-### Played command list
+### Commands list
 #### Initialize
 ```npm
 npm init --yes
+```
+or
+```npm
 npm init -y
 ```
 
 #### Help
 ```npm
 npm help
+```
+or
+```npm
 npm help `keyword`
 ```
 
@@ -28,43 +34,60 @@ npm help `keyword`
 ##### Dependencies
 ```npm
 npm install `package-name` --save
+```
+or
+```npm
 npm i `package-name` -S
 ```
 ##### Dev dependencies
 ```npm
 npm install `package-name` --save-dev
+```
+or
+```npm
 npm i `package-name` -S-D
 ```
 ##### Global installation
 ```npm
 npm install `package-name` -g --save
+```
+or
+```npm
 npm i `package-name` -g --save
-
 ```
 #### Uninstall
 ```npm
-npm uninstall `package-name` --save | -g flag for global
+npm uninstall `package-name` --save
+```
+or
+```npm
 npm un `package-name` --save
+```
+or
+```npm
 npm rm `package-name` --save
 ```
 
 #### Update
 ```npm
-npm update `package-name` | -g flag for global
+npm update `package-name`
+```
+or
+```npm
 npm up `package-name`
 ```
 
 #### Prune
 ```npm
 npm prune
-- Uninstalls the packages not mentioned in package.json file
 ```
+> Uninstalls the packages not mentioned in `package.json` file
 
 #### List
 ```npm
-npm list --depth `level` | -g flag for global
-aliases: ls, la, ll
+npm list --depth `level`
 ```
+> aliases: ls, la, ll
 
 #### Install all packages
 ```npm
@@ -73,7 +96,10 @@ npm install
 
 #### Update all packages
 ```npm
-npm update | -g flag for global
+npm update
+```
+or
+```npm
 npm up
 ```
 
@@ -81,6 +107,8 @@ npm up
 ```npm
 npm `script-command` `app-name`
 ```
+
+> -g flag for global
 
 ## Technologies
 - npm

@@ -1,12 +1,27 @@
 # npm commands
 npm commands  for reference.
 
-## Table of contents
-1. Introduction
-2. Technologies
-3. Project status
-4. Installation
-5. License
+- [npm commands](#npm-commands)
+  - [Introduction](#introduction)
+    - [Commands list](#commands-list)
+      - [Initialize](#initialize)
+      - [Help](#help)
+      - [Install package](#install-package)
+        - [Dependencies](#dependencies)
+        - [Dev dependencies](#dev-dependencies)
+        - [Global installation](#global-installation)
+      - [Uninstall](#uninstall)
+      - [Update](#update)
+      - [Prune](#prune)
+      - [List](#list)
+      - [Install all packages](#install-all-packages)
+      - [Update all packages](#update-all-packages)
+      - [Scripts](#scripts)
+  - [Technologies](#technologies)
+  - [Project status](#project-status)
+  - [Installation](#installation)
+    - [Get repository](#get-repository)
+  - [License](#license)
 
 ## Introduction
 A repository with all npm commands.

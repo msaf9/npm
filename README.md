@@ -1,75 +1,142 @@
-# npm Commands
+# npm commands
+npm commands  for reference.
 
-- [npm Commands](#npm-commands)
-    - [Initialize](#initialize)
-    - [Help](#help)
-    - [Install package](#install-package)
+- [npm commands](#npm-commands)
+  - [Introduction](#introduction)
+    - [Commands list](#commands-list)
+      - [Initialize](#initialize)
+      - [Help](#help)
+      - [Install package](#install-package)
         - [Dependencies](#dependencies)
         - [Dev dependencies](#dev-dependencies)
         - [Global installation](#global-installation)
-    - [Uninstall](#uninstall)
-    - [Update](#update)
-    - [Prune](#prune)
-    - [List](#list)
-    - [Install all packages](#install-all-packages)
-    - [Update all packages](#update-all-packages)
-    - [Scripts](#scripts)
+      - [Uninstall](#uninstall)
+      - [Update](#update)
+      - [Prune](#prune)
+      - [List](#list)
+      - [Install all packages](#install-all-packages)
+      - [Update all packages](#update-all-packages)
+      - [Scripts](#scripts)
+  - [Technologies](#technologies)
+  - [Project status](#project-status)
+  - [Installation](#installation)
+    - [Get repository](#get-repository)
+  - [License](#license)
 
-## Initialize
-> npm init --yes
->
-> npm init -y
+## Introduction
+A repository with all npm commands.
 
-## Help
-> npm help
->
-> npm help `keyword`
+### Commands list
+#### Initialize
+```npm
+npm init --yes
+```
+or
+```npm
+npm init -y
+```
 
-## Install package
-### Dependencies
-> npm install `package-name` --save
->
-> npm i `package-name` -S
+#### Help
+```npm
+npm help
+```
+or
+```npm
+npm help `keyword`
+```
 
-### Dev dependencies
-> npm install `package-name` --save-dev
->
-> npm i `package-name` -S-D
+#### Install package
+##### Dependencies
+```npm
+npm install `package-name` --save
+```
+or
+```npm
+npm i `package-name` -S
+```
+##### Dev dependencies
+```npm
+npm install `package-name` --save-dev
+```
+or
+```npm
+npm i `package-name` -S-D
+```
+##### Global installation
+```npm
+npm install `package-name` -g --save
+```
+or
+```npm
+npm i `package-name` -g --save
+```
+#### Uninstall
+```npm
+npm uninstall `package-name` --save
+```
+or
+```npm
+npm un `package-name` --save
+```
+or
+```npm
+npm rm `package-name` --save
+```
 
-### Global installation
-> npm install `package-name` -g --save
->
-> npm i `package-name` -g --save
+#### Update
+```npm
+npm update `package-name`
+```
+or
+```npm
+npm up `package-name`
+```
 
-## Uninstall
-> npm uninstall `package-name` --save | -g flag for global
->
-> npm un `package-name` --save
->
-> npm rm `package-name` --save
+#### Prune
+```npm
+npm prune
+```
+> Uninstalls the packages not mentioned in `package.json` file
 
-## Update
-> npm update `package-name` | -g flag for global
->
-> npm up `package-name`
-
-## Prune
-> npm prune
->
-> - Uninstalls the packages not mentioned in package.json file
-
-## List
-> npm list --depth `level` | -g flag for global
->
+#### List
+```npm
+npm list --depth `level`
+```
 > aliases: ls, la, ll
 
-## Install all packages
-> npm install
+#### Install all packages
+```npm
+npm install
+```
 
-## Update all packages
-> npm update | -g flag for global
->
-> npm up
+#### Update all packages
+```npm
+npm update
+```
+or
+```npm
+npm up
+```
 
-## Scripts
-> npm `script-command` `app-name`
+#### Scripts
+```npm
+npm `script-command` `app-name`
+```
+
+> -g flag for global
+
+## Technologies
+- npm
+- Git
+
+## Project status
+> **Continuous**
+
+## Installation
+### Get repository
+```git
+git clone https://github.com/msaf9/npm.git
+cd npm
+```
+
+## License

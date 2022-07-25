@@ -1,4 +1,19 @@
-# npm Commands for reference
+# npm Commands
+
+- [npm Commands](#npm-commands)
+    - [Initialize](#initialize)
+    - [Help](#help)
+    - [Install package](#install-package)
+        - [Dependencies](#dependencies)
+        - [Dev dependencies](#dev-dependencies)
+        - [Global installation](#global-installation)
+    - [Uninstall](#uninstall)
+    - [Update](#update)
+    - [Prune](#prune)
+    - [List](#list)
+    - [Install all packages](#install-all-packages)
+    - [Update all packages](#update-all-packages)
+    - [Scripts](#scripts)
 
 ## Initialize
 > npm init --yes

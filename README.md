@@ -10,12 +10,12 @@ npm commands  for reference.
         - [Dependencies](#dependencies)
         - [Dev dependencies](#dev-dependencies)
         - [Global installation](#global-installation)
+      - [Install all packages](#install-all-packages)
       - [Uninstall](#uninstall)
       - [Update](#update)
+      - [Update all packages](#update-all-packages)
       - [Prune](#prune)
       - [List](#list)
-      - [Install all packages](#install-all-packages)
-      - [Update all packages](#update-all-packages)
       - [Scripts](#scripts)
   - [Technologies](#technologies)
   - [Project status](#project-status)
@@ -70,6 +70,12 @@ or
 ```npm
 npm i `package-name` -g --save
 ```
+
+#### Install all packages
+```npm
+npm install
+```
+
 #### Uninstall
 ```npm
 npm uninstall `package-name` --save
@@ -92,6 +98,15 @@ or
 npm up `package-name`
 ```
 
+#### Update all packages
+```npm
+npm update
+```
+or
+```npm
+npm up
+```
+
 #### Prune
 ```npm
 npm prune
@@ -104,19 +119,7 @@ npm list --depth `level`
 ```
 > aliases: ls, la, ll
 
-#### Install all packages
-```npm
-npm install
-```
 
-#### Update all packages
-```npm
-npm update
-```
-or
-```npm
-npm up
-```
 
 #### Scripts
 ```npm

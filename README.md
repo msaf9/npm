@@ -6,6 +6,7 @@ npm commands  for reference.
     - [Commands list](#commands-list)
       - [Initialize](#initialize)
       - [Help](#help)
+      - [Config](#config)
       - [Install package](#install-package)
         - [Dependencies](#dependencies)
         - [Dev dependencies](#dev-dependencies)
@@ -43,6 +44,34 @@ npm help
 or
 ```npm
 npm help `keyword`
+```
+#### Config
+```npm
+npm config set
+```
+
+```npm
+npm config get
+```
+
+```npm
+npm config delete
+```
+
+```npm
+npm config list
+```
+
+```npm
+npm config edit
+```
+
+```npm
+npm get
+```
+
+```npm
+npm set
 ```
 
 #### Install package
@@ -118,7 +147,6 @@ npm prune
 npm list --depth `level`
 ```
 > aliases: ls, la, ll
-
 
 
 #### Scripts

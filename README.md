@@ -28,13 +28,7 @@ A repository with all npm commands.
 
 ### Commands list
 #### Initialize
-```npm
-npm init --yes
-```
-or
-```npm
-npm init -y
-```
+[Initialize command list](INITIALIZE.md "Initialize Commands")
 
 #### Help
 ```npm

@@ -32,13 +32,8 @@ A repository with all npm commands.
 [Initialize command list](INITIALIZE.md "Initialize Commands")
 
 #### Help
-```npm
-npm help
-```
-or
-```npm
-npm help `keyword`
-```
+[Help command list](HELP.md "Help Commands")
+
 #### Config
 ```npm
 npm config set

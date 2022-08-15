@@ -8,10 +8,6 @@ npm commands  for reference.
       - [Help](#help)
       - [Config](#config)
       - [Install package](#install-package)
-        - [Dependencies](#dependencies)
-        - [Dev dependencies](#dev-dependencies)
-        - [Global installation](#global-installation)
-      - [Install all packages](#install-all-packages)
       - [Uninstall](#uninstall)
       - [Update](#update)
       - [Update all packages](#update-all-packages)
@@ -38,35 +34,7 @@ A repository with all npm commands.
 [Config command list](CONFIG.md "Config Commands")
 
 #### Install package
-##### Dependencies
-```npm
-npm install `package-name` --save
-```
-or
-```npm
-npm i `package-name` -S
-```
-##### Dev dependencies
-```npm
-npm install `package-name` --save-dev
-```
-or
-```npm
-npm i `package-name` -S-D
-```
-##### Global installation
-```npm
-npm install `package-name` -g --save
-```
-or
-```npm
-npm i `package-name` -g --save
-```
-
-#### Install all packages
-```npm
-npm install
-```
+[Install command list](INSTALL.md "Install Commands")
 
 #### Uninstall
 ```npm

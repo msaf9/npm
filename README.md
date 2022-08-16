@@ -10,7 +10,6 @@ npm commands  for reference.
       - [Install package](#install-package)
       - [Uninstall](#uninstall)
       - [Update](#update)
-      - [Update all packages](#update-all-packages)
       - [Prune](#prune)
       - [List](#list)
       - [Scripts](#scripts)
@@ -40,22 +39,7 @@ A repository with all npm commands.
 [Uninstall command list](UNINSTALL.md "Uninstall Commands")
 
 #### Update
-```npm
-npm update `package-name`
-```
-or
-```npm
-npm up `package-name`
-```
-
-#### Update all packages
-```npm
-npm update
-```
-or
-```npm
-npm up
-```
+[Update command list](UPDATE.md "Update Commands")
 
 #### Prune
 ```npm

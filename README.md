@@ -37,17 +37,7 @@ A repository with all npm commands.
 [Install command list](INSTALL.md "Install Commands")
 
 #### Uninstall
-```npm
-npm uninstall `package-name` --save
-```
-or
-```npm
-npm un `package-name` --save
-```
-or
-```npm
-npm rm `package-name` --save
-```
+[Uninstall command list](UNINSTALL.md "Uninstall Commands")
 
 #### Update
 ```npm

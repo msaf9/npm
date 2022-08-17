@@ -42,10 +42,7 @@ A repository with all npm commands.
 [Update command list](UPDATE.md "Update Commands")
 
 #### Prune
-```npm
-npm prune
-```
-> Uninstalls the packages not mentioned in `package.json` file
+[Prune command list](PRUNE.md "Prune Commands")
 
 #### List
 ```npm

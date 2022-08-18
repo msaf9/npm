@@ -45,11 +45,7 @@ A repository with all npm commands.
 [Prune command list](PRUNE.md "Prune Commands")
 
 #### List
-```npm
-npm list --depth `level`
-```
-> aliases: ls, la, ll
-
+[List command list](LIST.md "List Commands")
 
 #### Scripts
 ```npm

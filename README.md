@@ -48,9 +48,7 @@ A repository with all npm commands.
 [List command list](LIST.md "List Commands")
 
 #### Scripts
-```npm
-npm `script-command` `app-name`
-```
+[Scripts command list](SCRIPTS.md "Scripts Commands")
 
 > -g flag for global
 

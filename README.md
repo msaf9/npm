@@ -1,5 +1,5 @@
 <h1> npm commands </h1>
-npm commands  for reference.
+npm commands for reference.
 
 - [Introduction](#introduction)
   - [Commands list](#commands-list)

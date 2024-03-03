@@ -1,7 +1,7 @@
 <h1> npm commands </h1>
 npm commands for reference.
 
-<h2>Table of content</h2>
+<h2>Table of contents</h2>
 
 - [Introduction](#introduction)
   - [Commands list](#commands-list)

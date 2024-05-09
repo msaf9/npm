@@ -83,3 +83,4 @@ cd npm
 ```
 
 ## License
+[MIT License](LICENSE)

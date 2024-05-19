@@ -28,39 +28,39 @@ A repository with all npm commands.
 
 ### Initialize
 
-[Initialize command list](INITIALIZE.md 'Initialize Commands')
+[Initialize command list](src/INITIALIZE.md 'Initialize Commands')
 
 ### Help
 
-[Help command list](HELP.md 'Help Commands')
+[Help command list](src/HELP.md 'Help Commands')
 
 ### Config
 
-[Config command list](CONFIG.md 'Config Commands')
+[Config command list](src/CONFIG.md 'Config Commands')
 
 ### Install package
 
-[Install command list](INSTALL.md 'Install Commands')
+[Install command list](src/INSTALL.md 'Install Commands')
 
 ### Uninstall
 
-[Uninstall command list](UNINSTALL.md 'Uninstall Commands')
+[Uninstall command list](src/UNINSTALL.md 'Uninstall Commands')
 
 ### Update
 
-[Update command list](UPDATE.md 'Update Commands')
+[Update command list](src/UPDATE.md 'Update Commands')
 
 ### Prune
 
-[Prune command list](PRUNE.md 'Prune Commands')
+[Prune command list](src/PRUNE.md 'Prune Commands')
 
 ### List
 
-[List command list](LIST.md 'List Commands')
+[List command list](src/LIST.md 'List Commands')
 
 ### Scripts
 
-[Scripts command list](SCRIPTS.md 'Scripts Commands')
+[Scripts command list](src/SCRIPTS.md 'Scripts Commands')
 
 > -g flag for global
 
